@@ -23,7 +23,7 @@
 }
 #a300{
 	background-color: rgb(33, 37, 41);
-	position: fixed;
+	position: relative;
 	opacity: 1;
 	width: 100%;
 	z-index: 10001;
@@ -113,6 +113,10 @@
  	color: rgb(243, 63, 63);
  	font-weight: 700;
  	font-size: 22px;
+ }
+  .navbar .navbar-toggler{
+ 	background-color: black;
+ 	color: red!important;
  }
 .container .navbar-nav .nav-item a:hover{
       border-bottom: 1px solid red;
@@ -223,6 +227,13 @@
 }
 .a26{
 	margin-top: 70px;
+}
+.a260{
+	margin-top: 70px;
+}
+.a260 a:hover{
+	cursor: pointer;
+	color: rgb(243, 63, 63) !important;
 }
 .a27{
 	font-family: 'poppins',sans-serif;
@@ -437,7 +448,7 @@
 .a56 .a55:hover, .a29 button:hover{
 	color: white!important;
 	background-color: black!important;
-	border: 1px solid black;
+	border: 1px solid black!important;
 }
 #preload{
 	background: linear-gradient(rgba(63, 63, 63,.5), rgba(63, 63, 63,.5)), url(t5img1.gif);
@@ -470,7 +481,6 @@ position:absolute;
 .a58{
 	height: 100px;
 }
-.a600{}
 .a600 ul li{
 	font-family: 'poppins',sans-serif;
 	text-decoration: none;
@@ -481,6 +491,15 @@ position:absolute;
 	border-top: 1px solid rgb(220,220,220);
 	/*border-bottom: 1px solid rgb(220,220,220);*/
 }
+.a605 ul li{
+	font-family: 'poppins',sans-serif;
+	text-decoration: none;
+	list-style: none!important;
+	padding: 15px 0px 15px 0px;
+	color: rgb(26, 102, 146);
+	font-weight: 550;
+	/*border-bottom: 1px solid rgb(220,220,220);*/
+}
 .a29 a:hover{
 	color: rgb(243, 63, 63)!important; 
 	cursor: pointer;
@@ -489,38 +508,10 @@ position:absolute;
 	height: auto;
 	width: auto;
 }
-   /*jssor slider loading skin spin css*/
-       .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
 
-        @keyframes jssorl-009-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /*jssor slider bullet skin 057 css*/
-        .jssorb057 .i {position:absolute;cursor:pointer;}
-        .jssorb057 .i .b {fill:none;stroke:#fff;stroke-width:2000;stroke-miterlimit:10;stroke-opacity:0.4;}
-        .jssorb057 .i:hover .b {stroke-opacity:.7;}
-        .jssorb057 .iav .b {stroke-opacity: 1;}
-        .jssorb057 .i.idn {opacity:.3;}
-
-        /*jssor slider arrow skin 073 css*/
-        .jssora073 {display:block;position:absolute;cursor:pointer;}
-        .jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
-        .jssora073:hover {opacity:.8;}
-        .jssora073.jssora073dn {opacity:.4;}
-        .jssora073.jssora073ds {opacity:.3;pointer-events:none;}
-
-
- .navbar .navbar-toggler{
- 	background-color: black;
- 	color: red!important;
- }
  .a900{
  	margin-left: 35px;
+ }
+ .a60{
+ 	cursor: pointer;
  }
